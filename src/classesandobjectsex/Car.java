@@ -12,14 +12,14 @@ public class Car {
     String make;
     String model;
     int numWheels;
-    String color;
+    String colour;
     
-<<<<<<< Updated upstream
-=======
+//<<<<<<< Updated upstream
+//=======
     public void drive(double direction) {
     System.out.println(String.format("The %s %s is driving at %f degrees", colour, make, direction));    
     
     
     } 
->>>>>>> Stashed changes
+//>>>>>> Stashed changes
 }
