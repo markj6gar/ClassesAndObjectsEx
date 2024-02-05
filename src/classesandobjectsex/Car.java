@@ -14,12 +14,29 @@ public class Car {
     int numWheels;
     String colour;
     
-//<<<<<<< Updated upstream
-//=======
+    public Car() {
+        make = "Honda";
+        model = "Civic";
+        numWheels = 4;
+        colour = "yellow";
+    }
+    
+    public Car(String make, String model, int numWheels, String colour) {
+        this.make = make;
+        this.model = model;
+        this.numWheels = numWheels;
+        this.colour = colour;
+    }
+    
+    
+
     public void drive(double direction) {
     System.out.println(String.format("The %s %s is driving at %f degrees", colour, make, direction));    
     
-    
+    }
+    public void drive(String direction) {
+        System.out.println("The " + colour + " " + make + " " + numWheels + " " +direction);
+   
     } 
-//>>>>>> Stashed changes
+
 }

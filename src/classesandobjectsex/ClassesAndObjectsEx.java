@@ -15,7 +15,10 @@ public class ClassesAndObjectsEx {
      */
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        System.out.println("Hello class!");
+        System.out.println("Hello class");
+        
+        Car car1 = new Car ("Ford", "Focus", 4, "Silver");
+        car1.drive("forward");
     }
     
 }
