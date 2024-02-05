@@ -9,5 +9,9 @@ package classesandobjectsex;
  * @author Mark
  */
 public class Car {
+    String make;
+    String model;
+    int numWheels;
+    String color;
     
 }
